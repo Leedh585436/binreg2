@@ -129,7 +129,7 @@
 				<div class="itcam2 grid-div1 grid-cursor" id="btnc2" data-value="40"><img class="itsize1" id="imgc2" src="Images/b69.jpg"></div>
 				<div class="itcam5 grid-div1 grid-cursor" id="btnc3" data-value="on"><img class="itsize1" id="imgc3" src="Images/b64.jpg"></div>
 				<div class="grid-div1"></div>
-				<div class="grid-div1 grid-cursor" id="btnc4"><img class="itsize1" id="imgc4" src="Images/b42.jpg"></div>
+				<div class="grid-div1 grid-cursor" id="btnc4"><img class="itsize1" id="imgc4" src="Images/b79.jpg"></div>
 				<div class="grid-div1 grid-cursor" id="btnc5"><img class="itsize1" id="imgc5" src="Images/b34.jpg"></div>
 				<div class="grid-div1 grid-cursor" id="btnc16" data-value="off"><img class="itsize1" id="imgc16" src="Images/b65.jpg"></div>
 				<div class="grid-div1 grid-cursor" id="btnc17" data-value="5"><img class="itsize1" id="imgc17" src="Images/b71.jpg"></div>
@@ -422,7 +422,7 @@
 			alert("Ce bouton permet de renseigner la vitesse du tracteur. Ce paramètre est utilisé quand l'utilisateur ne souhaite pas utiliser le gps.");
 		});
 		$('#btnc14').click(function(){
-			alert("Ce bouton permet de choisir le mode de détection des couleurs de la caméra.");
+			alert("Ce bouton permet d'affiner la détection des rangs par la caméra.");
 		});
 		$('#btn15').click(function(){
 			alert("Ce bouton permet de déplacer manuellement la bineuse vers la gauche.");
@@ -451,5 +451,9 @@
 		$('#title').click(function(){
 			alert("Cette barre donne visuellement la position latéral de l'appareil.");
 		});
+		$('#btnc27, #btna14').click(function(){
+			alert("Ce bouton permet d'annuler les modifications effectuées.")
+		});
+
 	});
 </script>
